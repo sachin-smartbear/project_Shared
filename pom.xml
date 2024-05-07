@@ -27,5 +27,11 @@
         </dependency>
 
     </dependencies>
-
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>GitHub Packages</name>
+            <url>https://maven.pkg.github.com/sachin-smartbear/repos/ready</url>
+        </repository>
+    </distributionManagement>
 </project>
