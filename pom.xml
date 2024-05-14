@@ -5,12 +5,13 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.example</groupId>
     <artifactId>project_shared</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0-SNAPSHOT${commit}</version>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <commit_id></commit_id>
     </properties>
     <dependencies>
         <dependency>
@@ -29,7 +30,7 @@
     </dependencies>
     <distributionManagement>
         <repository>
-            <id>github</id>
+            <id>github-shared</id>
             <name>GitHub Packages</name>
             <url>https://maven.pkg.github.com/sachin-smartbear/project_shared</url>
         </repository>
